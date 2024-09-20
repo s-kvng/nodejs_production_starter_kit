@@ -1,0 +1,31 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "A project inspired by youtube",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "moongose",
+    "mongodb",
+    "express",
+    "backend"
+  ],
+  "author": "Nathaniel E. Adama",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "morgan": "^1.10.0",
+    "winston": "^3.14.2"
+  }
+}
